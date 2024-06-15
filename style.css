@@ -15,3 +15,34 @@ Text Domain: salvatore
 Tags: 
 */
 
+/* Default light theme styles */
+body {
+    background-color: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--contrast);
+}
+
+
+/* Dark theme styles */
+html.theme-dark body {
+    background-color: var(--wp--preset--color--contrast);
+    color:  var(--wp--preset--color--base);
+}
+
+html.theme-dark body a{
+    color: var(--wp--preset--color--base);
+}
+
+html.theme-dark body .has-base-background-color a{
+    color: var(--wp--preset--color--contrast) !important;
+}
+
+html.theme-dark body h1,html.theme-dark body h2, html.theme-dark body h3, html.theme-dark body h4, html.theme-dark body h5, html.theme-dark body h6{
+    color: var(--wp--preset--color--base);
+}
+
+/** Tabor toggle custom css */
+
+html.theme-dark body .has-base-background-color .wp-block-tabor-dark-mode-toggle__track {
+    color: var(--wp--preset--color--contrast);
+}
+
