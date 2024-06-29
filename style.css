@@ -23,7 +23,7 @@ body {
 
 
 /* Dark theme styles */
-html.theme-dark body {
+html.theme-dark body, html.theme-dark body p {
     background-color: var(--wp--preset--color--contrast);
     color:  var(--wp--preset--color--base);
 }
@@ -38,6 +38,11 @@ html.theme-dark body .has-base-background-color a{
 
 html.theme-dark body h1,html.theme-dark body h2, html.theme-dark body h3, html.theme-dark body h4, html.theme-dark body h5, html.theme-dark body h6{
     color: var(--wp--preset--color--base);
+}
+
+html.theme-dark body .has-base-background-color .wp-block-site-title{
+    background-color: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--contrast) !important;
 }
 
 /** Tabor toggle custom css */
