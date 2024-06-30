@@ -22,7 +22,7 @@
 
         <?php
         // Check if the post has been updated.
-        if ( get_the_modified_time( 'U' ) !== get_the_time( 'U' ) ) : ?>
+        if ( get_the_modified_time( '' ) > get_the_time( '' ) ) : ?>
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
         <div class="wp-block-group">

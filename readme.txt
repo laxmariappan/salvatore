@@ -10,13 +10,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Child theme of 2024
-
+Child theme of 2024, perfect for blogs. Supports dark mode with the help of Rich Tabor's Dark Mode toggle block plugin.
 
 == Changelog ==
 
 = 1.0.0 =
 * Initial release
+
+= 1.1.1 =
+* Fixed: Last update date in the article meta.
+* Fixed: Dark mode styles for author bio.
 
 
 == Copyright ==
